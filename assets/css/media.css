@@ -93,4 +93,16 @@
         display:block;
     }
 }
+
+@media screen and (max-width:430px){
+      .title-interface h1 {
+        font-size:2.5rem;
+    }
+}
+
+@media screen and (max-width:375px){
+      .title-interface h1 {
+        font-size:2.3rem;
+    }
+}
 /**/
