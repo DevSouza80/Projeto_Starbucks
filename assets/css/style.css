@@ -226,3 +226,22 @@ section.session-mobile {
 }
 
 /**/
+
+
+/* Thumb ativo e hover */
+.thumb-item {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.6;
+}
+
+.thumb-item:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.thumb-item.active-thumb {
+    opacity: 1;
+    transform: scale(1.15);
+    border-radius: 8px;
+    outline: 3px solid var(--color-two);
+}
